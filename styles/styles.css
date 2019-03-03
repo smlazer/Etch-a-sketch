@@ -1,0 +1,21 @@
+#container {
+ display: block;
+ margin: 0 auto;
+ width: 100%;
+}
+
+.row {
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    text-align: center; 
+}
+
+.cell {
+    background: white;
+    border: black 1px solid;
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    display: inline-block;
+}
