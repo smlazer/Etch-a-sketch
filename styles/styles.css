@@ -1,21 +1,41 @@
 #container {
- display: block;
- margin: 0 auto;
- width: 100%;
+    
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
 }
 
 .row {
-    display: block;
-    margin: 0 auto;
-    width:100%;
-    text-align: center; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex: 1 1 auto;
 }
 
-.cell {
-    background: white;
-    border: black 1px solid;
-    width: 25px;
-    height: 25px;
-    margin-top: -5px;
-    display: inline-block;
+.cell{
+  background: white;
+	flex: 1 1 auto;
+	border: 1px solid black;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+#gen {
+    background-color: white;
+    color: blue;
+    margin-right: 5%;
+
+}
+
+#reset {
+    margin-left: 5%;
 }
